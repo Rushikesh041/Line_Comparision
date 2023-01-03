@@ -18,7 +18,7 @@
             Console.Write("Enter Y2 Co-ordinate : ");
             int y2 = Convert.ToInt32(Console.ReadLine());
 
-            CalculateLCompare line = new CalculateLCompare(x1 , x2, y1, y2);
+            CalculateCompare line = new CalculateCompare(x1 , x2, y1, y2);
             line.CalculateLengthOfLine();
         }
     }
