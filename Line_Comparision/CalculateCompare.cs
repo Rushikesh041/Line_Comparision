@@ -51,7 +51,7 @@ namespace Line_Comparision
             Console.Write("Enter Y1 Co-ordinate : ");
             int yl1 = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Enter Y2 Co-ordinate : ");
+            Console.Write("Enter Y2 Co-ordinate  : ");
             int yl2 = Convert.ToInt32(Console.ReadLine());
 
             return new CalculateCompare(xl1, xl2, yl1, yl2)
